@@ -1,9 +1,9 @@
-name: sample-react
+name: react-test-digitalocean
 services:
 - build_command: yarn build
   environment_slug: node-js
   github:
     branch: main
     deploy_on_push: true
-    repo: digitalocean/sample-react
-  name: sample-react
+    repo: dpfernandes/react-test-digitalocean
+  name: react-test-digitalocean
